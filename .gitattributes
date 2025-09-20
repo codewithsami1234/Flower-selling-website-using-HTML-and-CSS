@@ -1,0 +1,12 @@
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+
+# ignore images so they don't count toward language stats
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.gif linguist-detectable=false
+*.svg linguist-detectable=false
+
+# ignore README.md so Markdown won't show
+*.md linguist-detectable=false
